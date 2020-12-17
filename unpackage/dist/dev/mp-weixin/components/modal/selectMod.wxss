@@ -1,0 +1,32 @@
+
+.selectMod.data-v-423f9519{
+    box-sizing: border-box;
+}
+.showValue.data-v-423f9519{
+    height: 2rem;
+    border: none;
+    border-radius: 7px;
+    line-height: 2rem;
+    text-align: center;
+}
+.selectList.data-v-423f9519{
+    margin: 0;
+    padding: 0px;
+    overflow: scroll;
+    height: auto;
+    border-radius: 7px;
+}
+.selectList ._li.data-v-423f9519{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.selectedOne.data-v-423f9519{
+    color: #FBBD08;
+		margin-top: 10px;
+}
+.selected.data-v-423f9519{
+	  color: white;
+		margin-top: 10px;
+}
+

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "echarts": "^4.9.0",
+    "echarts-liquidfill": "^2.0.6",
+    "luch-request": "^3.0.4"
+  }
+}

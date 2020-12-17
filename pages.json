@@ -1,0 +1,247 @@
+{
+	"pages": [{
+			"path": "pages/electric/insidePatrolList",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionIndex",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/approvalMain",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages/common/error",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/index",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspection",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/approvalApply",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/approvalOrder",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/approvalStock",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/approvalConstruction",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionStart",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionHeader",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionCheck",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionScan",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/inspectionScanDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/workTicket",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/workTicketEdit",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/operationTicket",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/operationTicketEdit",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/overhaul",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/overhaulQuery",
+			"style": {}
+		},
+		{
+			"path": "pages/electric/main",
+			"style": {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/layout",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/background",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/text",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/icon",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/button",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/design",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/tag",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/avatar",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/progress",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/shadow",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/loading",
+			"style": {}
+		},
+		{
+			"path": "pages/component/bar",
+			"style": {}
+		},
+		{
+			"path": "pages/component/nav",
+			"style": {}
+		},
+		{
+			"path": "pages/component/list",
+			"style": {}
+		},
+		{
+			"path": "pages/component/card",
+			"style": {}
+		},
+		{
+			"path": "pages/component/form",
+			"style": {}
+		},
+		{
+			"path": "pages/component/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages/component/chat",
+			"style": {}
+		},
+		{
+			"path": "pages/component/swiper",
+			"style": {}
+		},
+		{
+			"path": "pages/component/modal",
+			"style": {}
+		},
+		{
+			"path": "pages/component/steps",
+			"style": {}
+		}, {
+			"path": "pages/plugin/indexes",
+			"style": {}
+		}, {
+			"path": "pages/plugin/animation",
+			"style": {}
+		}, {
+			"path": "pages/plugin/drawer",
+			"style": {}
+		}, {
+			"path": "pages/plugin/verticalnav",
+			"style": {}
+		}, {
+			"path": "pages/basics/network",
+			"style": {}
+		}, {
+			"path":"pages/electric/index",
+			"style":{}
+		}, {
+			"path":"pages/electric/insidePatrolHeader",
+			"style":{}
+		}, {
+			"path":"pages/electric/insidePatrolCheck",
+			"style":{}
+
+		},{
+			"path":"pages/electric/chartDefects",
+			"style":{}
+		}, {
+			"path":"pages/electric/chartAnalysis",
+			"style":{}
+		}, {
+			"path":"pages/electric/chartSpecial",
+			"style":{}
+		}, {
+			"path":"pages/electric/chartProject",
+			"style":{}
+		}, {
+			"path":"pages/electric/inspectionMain",
+			"style":{
+				"backgroundColor":"#ddd"
+			}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+		"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+				"name": "表单", //模式名称
+				"path": "pages/electric/index", //启动页面
+				"query": "" //启动参数
+			}
+		]
+	}
+
+}

@@ -1,0 +1,1 @@
+<view class="main"><cu-custom class="head" vue-id="76f7d66e-1" isBack="{{true}}" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">错误</view></cu-custom><view class="error"><text class="lg error-icon cuIcon-warnfill"></text><view class="error-msg">{{errMsg}}</view></view></view>

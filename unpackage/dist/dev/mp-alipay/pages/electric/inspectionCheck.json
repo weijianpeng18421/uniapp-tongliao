@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "sign-modal": "/components/modal/signModal",
+    "select-mod": "/components/modal/selectMod"
+  }
+}
