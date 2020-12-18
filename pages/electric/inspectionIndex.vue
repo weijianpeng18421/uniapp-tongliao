@@ -146,6 +146,7 @@
 			//plus.screen.lockOrientation('portrait-primary');
 			// this.testTime()//定时
 			
+			
 			// this.menuList = getByKey('PERMISSIONLIST')
 
 			var aData = new Date();
