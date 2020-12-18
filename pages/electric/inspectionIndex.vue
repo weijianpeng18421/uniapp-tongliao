@@ -140,7 +140,7 @@
 			}
 		},
 		onLoad() {
-			console.log("index页面加载了")
+			console.log("index页面加载了123")
 			//登录完上传缓存
 			this.upLoad()
 			//plus.screen.lockOrientation('portrait-primary');
