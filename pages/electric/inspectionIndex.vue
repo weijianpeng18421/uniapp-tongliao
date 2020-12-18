@@ -3,7 +3,7 @@
 		<view class="head">
 			<view class="flex flex-wrap padding-sm">
 				<view class="basis-xs text-left">首页</view>
-				<view class="basis-lg text-center">智能运维移动APP平台</view>
+				<view class="basis-lg text-center">新能源智能运维移动APP平台</view>
 				<view class="basis-xs text-right">
 					<image src="/static/layout.png" @click="layout" style="width: 40rpx;height: 40rpx;"></image>
 				</view>
