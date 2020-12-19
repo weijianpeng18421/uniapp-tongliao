@@ -2,7 +2,7 @@
 	<view class="main bg-my-gray">
 		<cu-custom class="head" :isBack="true">
 			<block slot="backText">返回</block>
-			<block slot="content">华电蒙东数字化智能巡检平台</block>
+			<block slot="content">新能源智能运维移动APP平台</block>
 		</cu-custom>
 		<scroll-view scroll-y class="bg-my-gray">
 			<view class="ground cu-card case">

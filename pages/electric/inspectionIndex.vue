@@ -112,20 +112,20 @@
 				},
 				menuList: [{
 					children: [{
-						code: 'kpiAndNotice',
-						name: '工作票管理',
+						code: 'fan',
+						name: '巡检管理',
 						sort: 1
 					}, {
-						code: 'warehouse',
-						name: '操作票管理',
+						code: 'station',
+						name: '检修管理',
 						sort: 2
 					}, {
-						code: 'rectification',
-						name: '巡检管理',
+						code: 'bugManager',
+						name: '工作票管理',
 						sort: 3
 					}, {
-						code: 'technological',
-						name: '检修文件包',
+						code: 'rectification',
+						name: '操作票管理',
 						sort: 4
 					}],
 					code: 'inspection',

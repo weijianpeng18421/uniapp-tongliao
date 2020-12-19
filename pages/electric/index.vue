@@ -1,24 +1,30 @@
 <template>
 	<view class="login-bg">
 		<scroll-view class="page">
-			<view class="text-center logo-top">
+			<view class="cu-card case">
+			<view class="text-center logo-top margin">
 				<image class="company-log" src="../../static/company_logo.png"></image>
 			</view>
 			<view class="solid-bottom text-xl padding text-center">
-				<text class="text-white text-bold">华电蒙东数字化智能巡检平台</text>
+				<text class="text-blue1 text-bold">新能源智能运维移动APP平台</text>
 			</view>
-			<view class="cu-card case">
+			
 				<view class="cu-item shadow">
 					<view class="cu-form-group padding-xs">
 						<text class="cuIcon-people input-icon"></text>
-						<input class="text-white" v-model="userName" size="mini" placeholder="用户名" name="input"></input>
+						<input class="text-blue1" v-model="userName" size="mini" placeholder="用户名" name="input"></input>
 					</view>
+					<view class="cu-line"></view>
 				</view>
 				<view class="cu-item shadow">
 					<view class="cu-form-group padding-xs">
 						<text class="cuIcon-attention input-icon"></text>
-						<input class="text-white" v-model="password" placeholder="密码" type="password" name="password"></input>
+						<input class="text-blue1" v-model="password" placeholder="密码" type="password" name="password"></input>
 					</view>
+					<view class="cu-line"></view>
+				</view>
+				<view class="login-btn-view">
+					<button class="cu-btn login-btn app-btn opic" @click="goLogin()">登录</button>
 				</view>
 			</view>
 			<!-- 			<view class="flex login-tips">
@@ -30,9 +36,6 @@
 					<text class="text-white">忘记密码</text>
 				</view>
 			</view> -->
-			<view class="login-btn-view">
-				<button class="cu-btn login-btn app-btn opic" @click="goLogin()">登录</button>
-			</view>
 			<button class="cu-btn host-btn" @click="showChange()"></button>
 			<view class="host" v-if="isShow">
 				<view class="cu-form-group">
@@ -174,7 +177,8 @@
 	}
 
 	.opic{
-		background: rgba(0,0,0,0) !important;
+		margin-top: 50px;
+		background: #3465b5 !important;
 	}
 	.host {
 		color: white;
@@ -193,17 +197,41 @@
 	}
 	.cu-item{
 		background-color: transparent !important;
-		color: white;
+		color: #3465b5;
 		
 	}
 	.cu-form-group{
 		background-color: transparent !important;
-		color: white !important;
+		color: #3465b5 !important;
 	}
 	input{
-		color: white !important;
+		color: #3465b5 !important;
 	}
 	.uni-input-placeholder{
-		color: #e1e1e1;
+		color: #3465b5;
+	}
+	.text-blue1{
+		color: #3465b5;
+	}
+	.cu-card{
+		width: 80%;
+		height: 30rem;
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 40px;
+		    left: 0;
+		    right: 0;
+				top:0;
+				bottom: 0;
+		    margin: auto;
+				position: absolute;
+	}
+	.cu-line{
+		width: 100%;
+				margin: 0 auto;
+				border: 0;
+				height: 0;
+				border-top: 1px solid rgba(0, 0, 0, 0.1);
+				border-bottom: 1px solid rgba(52, 101, 181, 0.7);
+
 	}
 </style>

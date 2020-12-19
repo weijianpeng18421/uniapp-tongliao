@@ -58,7 +58,6 @@
 }
 .main{
 	height: 100%;
-	background-color: #333333;
 }
 .app-title{
 	text-align: center;
@@ -66,7 +65,6 @@
 	margin-top: 40rpx;
 }
 .main-top-bg{
-	background-color: #6ac4b8;
 	width: 100%;
 	height: 100%;
 }
@@ -76,7 +74,7 @@
 }
 .head{
 	color: white;
-	background-color: #6ac4b8;
+	background-color: #477df4;
 }
 .kpi-icon-bg{
 	width: 120rpx;
@@ -100,7 +98,6 @@
 	color: white;
 }
 .bg{
-	background-color: #333333;
 }
 .main-btn{
 	background: -webkit-linear-gradient(top,#0b090c,#353036);
@@ -124,22 +121,15 @@
 	width: 20%;
 }
 .table-title-bg{
-	background-color: #383d99;
-	background: #383d99;
-	border: 1px solid #FFFFFF;
-	color: white;
 	text-align: center;
 }
 .content{
 	padding: 20rpx 20rpx;
 }
 .table-content-bg{
-	border: 1px solid #FFFFFF;
-	color: white;
 	text-align: center;
 }
 .table-content-bg:last-child{
-	background-color: #383d99;
 }
 .common-table-content{
 	border: 1px solid #FFFFFF;
@@ -262,15 +252,12 @@
 	padding: 0px 20rpx;
 }
 .detail{
-	color: white;
 	padding: 5px;
 }
 .split-title{
 	padding: 10rpx;
 	margin: 60rpx 0rpx 0rpx 0rpx;
-	color: white;
-	text-align: center;
-	background-color: #777777;
+	text-align: left;
 }
 .echarts-title{
 	padding: 10rpx;
@@ -281,31 +268,20 @@
 }
 .detail-content{
 	padding: 0px 10rpx;
-	background-color: #333333;
 }
 .form-item{
-	background-color: #333333;
 }
 .my-form .cu-form-group{
-	background-color: #333333;
-	color: white;
-	border: none !important;
 	min-height: 30px;
 }
 .my-form .cu-form-group uni-picker:after{
 	top: -12px;
 }
 .inspection-item-content{
-	background-color: #333333;
 }
 .inspection-item{
-	background-color: #333333;
-	color: white;
 }
 .inspection-item .cu-form-group{
-	background-color: #333333;
-	color: white;
-	border: none !important;
 }
 .common-btn-cur{
 	background: -webkit-linear-gradient(right,#2E1F81,#3A67A7) !important;
@@ -352,7 +328,6 @@ uni-radio::before, uni-checkbox::before{
 	margin-top: 20px;
 }
 .cu-form-group+.cu-form-group {
-	border-top: 1upx solid #424242 !important;
 }
 .cu-form-group{
 	min-height: 40px !important;
