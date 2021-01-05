@@ -177,7 +177,7 @@
 	}
 
 	.opic{
-		margin-top: 50px;
+		margin-top: 5%;
 		background: #3465b5 !important;
 	}
 	.host {
@@ -198,11 +198,12 @@
 	.cu-item{
 		background-color: transparent !important;
 		color: #3465b5;
-		
+		height: auto;
 	}
 	.cu-form-group{
 		background-color: transparent !important;
 		color: #3465b5 !important;
+		height: auto;
 	}
 	input{
 		color: #3465b5 !important;
@@ -215,7 +216,7 @@
 	}
 	.cu-card{
 		width: 80%;
-		height: 30rem;
+		height: 60%;
 		background-color: rgba(255, 255, 255, 0.7);
 		border-radius: 40px;
 		    left: 0;
@@ -230,8 +231,7 @@
 				margin: 0 auto;
 				border: 0;
 				height: 0;
-				border-top: 1px solid rgba(0, 0, 0, 0.1);
-				border-bottom: 1px solid rgba(52, 101, 181, 0.7);
-
+				border-top: 1rpx solid rgba(0, 0, 0, 0.1);
+				border-bottom: 1rpx solid rgba(52, 101, 181, 0.7);
 	}
 </style>

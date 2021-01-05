@@ -17,11 +17,14 @@
 					<text class="cuIcon-titles text-olive padding-left-sm"></text> {{item.name}}
 				</view>
 				<!-- </view> -->
-				<view class="grid text-center" :class="['col-' + gridCol,gridBorder?'':'no-border']">
-					<view class="padding-sm" v-for="(child,index) in item.children" :key="index" v-if="index<gridCol*2" @click="menuSelection(child.code)"
-					 :data-id="child.name">
-						<image class="iconBg margin-bottom-xs" :src="iconList[child.code]" style="width: 4rem;height: 4rem;"></image>
-						<text class="text-shadow">{{child.name}}</text>
+				<view class="grid" :class="['col-' + gridCol,gridBorder?'':'no-border']">
+					<view class="padding-sm" v-for="(child,index) in item.children" :key="index" v-if="index<gridCol*2"
+					 @click="menuSelection(child.code)" :data-id="child.name">
+					 <view class="grid margin-bottom text-center" style="display: table-caption;" v-for="(item,index) in 1" :key="index" :class="'col-' + (index+1)">
+					 	<image class="iconBg" :src="iconList[child.code]" style="width: 4rem;height: 4rem;"></image>
+					 	<text class="text-shadow" style="width: 4rem;height: 4rem;">{{child.name}}</text>
+					 </view>
+						
 					</view>
 				</view>
 			</view>
@@ -113,20 +116,12 @@
 				menuList: [{
 					children: [{
 						code: 'fan',
-						name: '巡检管理',
+						name: '风机巡检',
 						sort: 1
 					}, {
 						code: 'station',
-						name: '检修管理',
+						name: '站内巡检',
 						sort: 2
-					}, {
-						code: 'bugManager',
-						name: '工作票管理',
-						sort: 3
-					}, {
-						code: 'rectification',
-						name: '操作票管理',
-						sort: 4
 					}],
 					code: 'inspection',
 					name: '现场管理',
@@ -146,8 +141,8 @@
 			this.upLoad()
 			//plus.screen.lockOrientation('portrait-primary');
 			// this.testTime()//定时
-			
-			
+
+
 			// this.menuList = getByKey('PERMISSIONLIST')
 
 			var aData = new Date();
@@ -339,11 +334,23 @@
 		text-shadow: 0.05rem 0.05rem #333;
 	}
 
+	.text-parent {
+		display: table-column;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
 	.text-center {
 		text-align: center;
 	}
 
 	.cu-item {
 		margin: 5px !important;
+	}
+
+	.text-cell {
+		font-size: 0.5rem;
+		display: inline-table;
 	}
 </style>
